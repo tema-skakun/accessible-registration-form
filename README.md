@@ -1,33 +1,50 @@
 # План
 
+* [Task](#task)
+* [Solution](#solution)
+* [What did I read](#what-did-i-read)
+* [What did I watch](#what-did-i-watch)
+* [What I tested](#what-i-tested)
+* [Useful](#useful)
+* [What can be added](#what-can-be-added)
+* [Deployment](#deployment)
 
-## Задание
+## Task
 Accessibility Enhancements for Qodana Reports
 Design and develop an accessible registration form with fields for email, password, and username,
 plus a "Show Password" toggle button, ensuring keyboard navigability and screen reader compatibility.
 
 продукт [Qodana Code Quality Platform – Overview](https://www.youtube.com/watch?v=WrhnUnzMUCg&ab_channel=JetBrains)
 
-## Решение
+## Solution
 за основу взял [наивную модель login page](https://www.youtube.com/watch?v=tIdNeoHniEY&ab_channel=LamaDev)
 
-## Что читал
+## What did I read
 [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/#toc)
 [WCAG 2.1 Checklist with Code Examples](https://www.accessi.org/blog/wcag-checklist-with-code-examples/)
 
-## Что смотрел
+## What did I watch
 [основы HTML](https://www.youtube.com/watch?v=_J6hMLsscOo&t=6277s&ab_channel=webDev)
+
 [How to make your login forms accessible (according to WCAG 2.2)](https://www.youtube.com/watch?v=E66_O0JpThI&ab_channel=Silktide)
+
 [WCAG - Web Content Accessibility Guidelines 2.1 Explained](https://www.youtube.com/watch?v=Hi3tQ_HzOgo&ab_channel=Intellipaat)
+
 [Testing Web Pages for Web Accessibility Part 1](https://www.youtube.com/watch?v=DgFXUx2QwB0&t=1363s&ab_channel=AfricaKenyah)
+
 [Web Content Accessibility Guidelines (WCAG 2.1) Crash Course](https://www.youtube.com/watch?v=NEK3aMPs1Us&t=2547s&ab_channel=AfricaKenyah)
+
 [Registration Process: AccessAbility Services](https://www.youtube.com/watch?v=KG532yZnLZQ&t=13s&ab_channel=AccessAbilityServices)
+
 [Accessible Web Design: What Is It & How To Do It](https://www.youtube.com/watch?v=-ao_Kc_8rpE&t=21s&ab_channel=FluxAcademy)
+
 [Unlocking the truth: Accessibility of giving & registration forms](https://www.youtube.com/watch?v=W60DdbZsf30&t=27s&ab_channel=AdvancementForm)
+
 [How to make accessible forms - with lots of examples!](https://www.youtube.com/watch?v=ffxwEyBcdf0&t=828s&ab_channel=Silktide)
+
 [UX Design for Accessibility: Accessibility Design Best Practices (Video 3/5)](https://www.youtube.com/watch?v=rJLWbG-K0Z8&ab_channel=AppianCommunity)
 
-## Чем тестировал
+## What I tested
  ### Экранные ридеры
     - VoiceOver (Mac OS) (+)
     - ___ (Windows OS)
@@ -36,10 +53,10 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
     - WAVE Web Accessibility Evaluation Tools (+)
     - Lighthouse () - не работает на локальной версии, сначала диплой!!!
 
-## Полезное
+## Useful
 [Can I use](https://caniuse.com/?search=htmlFor)
 
-## Что можно добавить
+## What can be added
     - проверка пароля и вывод сообщения о несоответствии
     - общая проверка формы
     - избавиться от вертикального скролла при улевичении 500%
