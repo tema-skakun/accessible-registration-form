@@ -36,9 +36,13 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
     - WAVE Web Accessibility Evaluation Tools (+)
     - Lighthouse () - не работает на локальной версии, сначала диплой!!!
 
+## Полезное
+[Can I use](https://caniuse.com/?search=htmlFor)
+
 ## Что можно добавить
     - проверка пароля и вывод сообщения о несоответствии
     - общая проверка формы
+    - избавиться от вертикального скролла при улевичении 500%
 
 ## Deployment
 [link]()

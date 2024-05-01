@@ -67,7 +67,11 @@ const App = () => {
             onChange={onChange}
           />
         ))}
-        <button type="submit" aria-label="Register">
+        <button
+          id="register"
+          type="submit"
+          aria-label="Register"
+        >
           Register
         </button>
       </form>

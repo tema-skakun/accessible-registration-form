@@ -36,6 +36,7 @@ const FormInput = (props) => {
       </span>
       {type === "password" && (
         <button
+          id={showPassword ? "hidePassword" : "showPassword"}
           type="button"
           onClick={togglePasswordVisibility}
           aria-label={showPassword ? "Hide Password" : "Show Password"}
