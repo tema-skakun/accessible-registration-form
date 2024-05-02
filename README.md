@@ -1,4 +1,4 @@
-# Introduction
+# Accessible Registration Form
 Welcome to the repository dedicated to the development of an accessible registration form designed to meet the requirements of the Web Content Accessibility Guidelines (WCAG). This project ensures that the registration process is inclusive and usable for all individuals, including those using assistive technologies such as screen readers.
 
 Throughout this repository, you'll find detailed documentation outlining the task at hand, the resources consulted, and the tools utilized for testing. Additionally, there's a comprehensive overview of the solution implemented to enhance accessibility and suggestions for further improvements.
