@@ -36,6 +36,7 @@ const FormInput = (props) => {
       </span>
       {type === "password" && (
         <button
+          tabIndex="0"// for Safari
           name={showPassword ? "hidePassword" : "showPassword"}
           id={showPassword ? "hidePassword" : "showPassword"}
           type="button"

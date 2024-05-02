@@ -12,6 +12,7 @@ const App = () => {
   const inputs = [
     {
       id: 1,
+      // tabIndex: "1",
       name: "email",
       label: "Email:",
       type: "email",
@@ -23,6 +24,7 @@ const App = () => {
     },
     {
       id: 2,
+      // tabIndex: "2",
       name: "password",
       label: "Password:",
       type: "password",
@@ -35,6 +37,7 @@ const App = () => {
     },
     {
       id: 3,
+      // tabIndex: "4",
       name: "username",
       label: "Username:",
       type: "text",
@@ -69,6 +72,7 @@ const App = () => {
           />
         ))}
         <button
+          tabIndex="0"// for Safari
           name="register"
           id="register"
           type="submit"
