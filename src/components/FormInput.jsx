@@ -31,11 +31,12 @@ const FormInput = (props) => {
         onBlur={handleFocus}
         focused={focused.toString()}
       />
-      <span id={name}>
+      <span id={id}>
         {errorMessage}
       </span>
       {type === "password" && (
         <button
+          name={showPassword ? "hidePassword" : "showPassword"}
           id={showPassword ? "hidePassword" : "showPassword"}
           type="button"
           onClick={togglePasswordVisibility}

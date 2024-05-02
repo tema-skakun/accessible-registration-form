@@ -29,9 +29,13 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
 ## What did I watch
 [Basic of HTML](https://www.youtube.com/watch?v=_J6hMLsscOo&t=6277s&ab_channel=webDev)
 
-[How to make your login forms accessible (according to WCAG 2.2)](https://www.youtube.com/watch?v=E66_O0JpThI&ab_channel=Silktide)
+[How I do an accessibility check](https://www.youtube.com/watch?v=cOmehxAU_4s&t=723s&ab_channel=ChromeforDevelopers)
 
-[WCAG - Web Content Accessibility Guidelines 2.1 Explained](https://www.youtube.com/watch?v=Hi3tQ_HzOgo&ab_channel=Intellipaat)
+[Accessible Web Design: What Is It & How To Do It](https://www.youtube.com/watch?v=-ao_Kc_8rpE&t=21s&ab_channel=FluxAcademy)
+
+[UX Design for Accessibility: Accessibility Design Best Practices](https://www.youtube.com/watch?v=rJLWbG-K0Z8&ab_channel=AppianCommunity)
+
+[How to make accessible forms - with lots of examples!](https://www.youtube.com/watch?v=ffxwEyBcdf0&t=828s&ab_channel=Silktide)
 
 [Testing Web Pages for Web Accessibility Part 1](https://www.youtube.com/watch?v=DgFXUx2QwB0&t=1363s&ab_channel=AfricaKenyah)
 
@@ -39,29 +43,30 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
 
 [Registration Process: AccessAbility Services](https://www.youtube.com/watch?v=KG532yZnLZQ&t=13s&ab_channel=AccessAbilityServices)
 
-[Accessible Web Design: What Is It & How To Do It](https://www.youtube.com/watch?v=-ao_Kc_8rpE&t=21s&ab_channel=FluxAcademy)
+[WCAG - Web Content Accessibility Guidelines 2.1 Explained](https://www.youtube.com/watch?v=Hi3tQ_HzOgo&ab_channel=Intellipaat)
 
-[Unlocking the truth: Accessibility of giving & registration forms](https://www.youtube.com/watch?v=W60DdbZsf30&t=27s&ab_channel=AdvancementForm)
+[How to make your login forms accessible (according to WCAG 2.2)](https://www.youtube.com/watch?v=E66_O0JpThI&ab_channel=Silktide)
 
-[How to make accessible forms - with lots of examples!](https://www.youtube.com/watch?v=ffxwEyBcdf0&t=828s&ab_channel=Silktide)
+## Useful resources
+Website ["Can I use"](https://caniuse.com/?search=htmlFor) provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
 
-[UX Design for Accessibility: Accessibility Design Best Practices (Video 3/5)](https://www.youtube.com/watch?v=rJLWbG-K0Z8&ab_channel=AppianCommunity)
-
-## Useful information
-Website ["Can I use"](https://caniuse.com/?search=htmlFor) 
-
-[MDN Web Docs - ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) is an open-source, collaborative project documenting Web platform technologies, including CSS, HTML, JavaScript, and Web APIs.
 
 ## What tools did I use to test
  ### Screen Readers
-    - VoiceOver (Mac OS) (+)
+    - VoiceOver (Mac OS) - reads successfully
     - ___ (Windows OS)
     - ___ (Linux OS)
  ### Accessibility Testing Tools
     - WAVE Web Accessibility Evaluation Tools (+)
-    - Lighthouse () - не работает на локальной версии, сначала диплой!!!
+    - Lighthouse (+)
 
-## Test results
+## Tools test results
+![WAVE report](screenshots/wave.png)
+There are no errors, issues and alerts in the report from WAVE.
+
+![Lighthouse report](screenshots/lighthouse.png)
+In Lighthouse's report, all ratings are equal to 100.
 
 ## What can be added
     - проверка пароля и вывод сообщения о несоответствии/соответствии для каждого поля
@@ -72,9 +77,9 @@ Website ["Can I use"](https://caniuse.com/?search=htmlFor)
 за основу я взял наивную модель login page из [этого видео](https://www.youtube.com/watch?v=tIdNeoHniEY&ab_channel=LamaDev)
 
 ## Deployment
-[link]()
+[link](https://tema-skakun.github.io/accessible-registration-form/)
 
-СДЕЛАТЬ диплой и потестить на ридерах линуксе и винде; и в лайтхаусе
+~~СДЕЛАТЬ диплой~~ и потестить на ридерах линуксе и винде; ~~и в лайтхаусе~~
 
 
 

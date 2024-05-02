@@ -69,6 +69,7 @@ const App = () => {
           />
         ))}
         <button
+          name="register"
           id="register"
           type="submit"
           aria-label="Register"
