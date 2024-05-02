@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/accessible-registration-form/static/css/main.ed5e84e0.css",
+    "main.js": "/accessible-registration-form/static/js/main.d8849813.js",
+    "static/js/453.fb022edc.chunk.js": "/accessible-registration-form/static/js/453.fb022edc.chunk.js",
+    "index.html": "/accessible-registration-form/index.html",
+    "main.ed5e84e0.css.map": "/accessible-registration-form/static/css/main.ed5e84e0.css.map",
+    "main.d8849813.js.map": "/accessible-registration-form/static/js/main.d8849813.js.map",
+    "453.fb022edc.chunk.js.map": "/accessible-registration-form/static/js/453.fb022edc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed5e84e0.css",
+    "static/js/main.d8849813.js"
+  ]
+}
