@@ -1,23 +1,25 @@
 # План
 
 * [Task](#task)
-* [Solution](#solution)
 * [What did I read](#what-did-i-read)
 * [What did I watch](#what-did-i-watch)
-* [What I tested](#what-i-tested)
-* [Useful](#useful)
+* [Useful information](#useful-information)
+* [What tools did I use to test](#what-tools-did-i-use-to-test)
+* [Test results](#test-results)
 * [What can be added](#what-can-be-added)
+* [Solution](#solution)
 * [Deployment](#deployment)
+
+## Overview of the project
+Static code analysis by Qodana helps development teams follow agreed quality standards, and deliver readable, maintainable, and secure code. Powered by JetBrains.
+
+[Qodana Code Quality Platform – Overview](https://www.youtube.com/watch?v=WrhnUnzMUCg&ab_channel=JetBrains)
+
 
 ## Task
 Accessibility Enhancements for Qodana Reports
 Design and develop an accessible registration form with fields for email, password, and username,
 plus a "Show Password" toggle button, ensuring keyboard navigability and screen reader compatibility.
-
-продукт [Qodana Code Quality Platform – Overview](https://www.youtube.com/watch?v=WrhnUnzMUCg&ab_channel=JetBrains)
-
-## Solution
-за основу взял [наивную модель login page](https://www.youtube.com/watch?v=tIdNeoHniEY&ab_channel=LamaDev)
 
 ## What did I read
 [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/#toc)
@@ -25,7 +27,7 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
 [WCAG 2.1 Checklist with Code Examples](https://www.accessi.org/blog/wcag-checklist-with-code-examples/)
 
 ## What did I watch
-[основы HTML](https://www.youtube.com/watch?v=_J6hMLsscOo&t=6277s&ab_channel=webDev)
+[Basic of HTML](https://www.youtube.com/watch?v=_J6hMLsscOo&t=6277s&ab_channel=webDev)
 
 [How to make your login forms accessible (according to WCAG 2.2)](https://www.youtube.com/watch?v=E66_O0JpThI&ab_channel=Silktide)
 
@@ -45,24 +47,34 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
 
 [UX Design for Accessibility: Accessibility Design Best Practices (Video 3/5)](https://www.youtube.com/watch?v=rJLWbG-K0Z8&ab_channel=AppianCommunity)
 
-## What I tested
- ### Экранные ридеры
+## Useful information
+Website ["Can I use"](https://caniuse.com/?search=htmlFor) 
+
+[MDN Web Docs - ARIA](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA)
+
+## What tools did I use to test
+ ### Screen Readers
     - VoiceOver (Mac OS) (+)
     - ___ (Windows OS)
     - ___ (Linux OS)
- ### Инструменты тестирования доступности
+ ### Accessibility Testing Tools
     - WAVE Web Accessibility Evaluation Tools (+)
     - Lighthouse () - не работает на локальной версии, сначала диплой!!!
 
-## Useful
-[Can I use](https://caniuse.com/?search=htmlFor)
+## Test results
 
 ## What can be added
-    - проверка пароля и вывод сообщения о несоответствии
+    - проверка пароля и вывод сообщения о несоответствии/соответствии для каждого поля
     - общая проверка формы
+    - добавить aria-live="polite" для сообщений об ошибках
+
+## Solution
+за основу я взял наивную модель login page из [этого видео](https://www.youtube.com/watch?v=tIdNeoHniEY&ab_channel=LamaDev)
 
 ## Deployment
 [link]()
+
+СДЕЛАТЬ диплой и потестить на ридерах линуксе и винде; и в лайтхаусе
 
 
 

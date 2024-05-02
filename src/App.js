@@ -49,6 +49,7 @@ const App = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    // here should be logic for sending data to server
   };
 
   const onChange = (e) => {
