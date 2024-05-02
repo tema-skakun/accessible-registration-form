@@ -21,6 +21,7 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
 
 ## What did I read
 [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/#toc)
+
 [WCAG 2.1 Checklist with Code Examples](https://www.accessi.org/blog/wcag-checklist-with-code-examples/)
 
 ## What did I watch
@@ -59,7 +60,6 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
 ## What can be added
     - проверка пароля и вывод сообщения о несоответствии
     - общая проверка формы
-    - избавиться от вертикального скролла при улевичении 500%
 
 ## Deployment
 [link]()

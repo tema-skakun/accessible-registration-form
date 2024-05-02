@@ -12,11 +12,23 @@
     background-position: center;
 }
 
-form{
+form {
     background-color: white;
-    padding: 0px 60px;
+    padding: 0px 40px;
     border-radius: 10px;
     border: 2px solid #696969;
+    max-width: 400px;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .app {
+        padding: 20px;
+    }
+
+    form {
+        padding: 0px 20px;
+    }
 }
 
 h1{
