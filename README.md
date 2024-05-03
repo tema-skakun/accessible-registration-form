@@ -24,17 +24,30 @@ Design and develop an accessible registration form with fields for email, passwo
 plus a "Show Password" toggle button, ensuring keyboard navigability and screen reader compatibility.
 
 ## Tools
- ### Screen Readers
+I used three browsers, three screen readers and three accessibility testing tools.
+
+### Browsers
+    - Mozila Firefox [Version 125.0.3 (64-bit)]
+    - Google Chrome [Version 124.0.6367.119 (Official Build) (x86_64)]
+    - Safari [Version 17.4.1 (19618.1.15.11.14)]
+
+### Screen Readers
 ![VoiceOver](screenshots/VoiceOver.png)
-VoiceOver (Mac OS) - works successfully.
+VoiceOver (macOS) - works successfully.
 
     - ___ (Windows OS)
     - ___ (Linux OS)
  ### Accessibility Testing Tools
     - WAVE Web Accessibility Evaluation Tools (+)
     - Lighthouse (+)
+    - axe DevTools - Web Accessibility Testing (+)
 
 ## Tools test results
+
+Я столкнулся с проблемой: При перемещении по странице с помощью кнопки табуляции в браузере Safari фокус не переходит на кнопки.
+
+Решение - я добавил на кнопки tabindex="0".
+
 ![WAVE report](screenshots/wave.png)
 There are no errors, issues and alerts in the report from WAVE.
 

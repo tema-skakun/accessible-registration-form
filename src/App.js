@@ -12,7 +12,6 @@ const App = () => {
   const inputs = [
     {
       id: 1,
-      // tabIndex: "1",
       name: "email",
       label: "Email:",
       type: "email",
@@ -24,7 +23,6 @@ const App = () => {
     },
     {
       id: 2,
-      // tabIndex: "2",
       name: "password",
       label: "Password:",
       type: "password",
@@ -37,7 +35,6 @@ const App = () => {
     },
     {
       id: 3,
-      // tabIndex: "4",
       name: "username",
       label: "Username:",
       type: "text",
@@ -60,27 +57,29 @@ const App = () => {
   };
 
   return (
-    <div className="app">
-      <form onSubmit={handleSubmit} autoComplete="on">
-        <h1>Registration Form</h1>
-        {inputs.map((input) => (
-          <FormInput
-            key={input.id}
-            {...input}
-            value={values[input.name]}
-            onChange={onChange}
-          />
-        ))}
-        <button
-          tabIndex="0"// for Safari
-          name="register"
-          id="register"
-          type="submit"
-          aria-label="Register"
-        >
-          Register
-        </button>
-      </form>
+    <div className="app" role="form">
+      <main role="main">
+        <form onSubmit={handleSubmit} autoComplete="on">
+          <h1>Registration Form</h1>
+          {inputs.map((input) => (
+            <FormInput
+              key={input.id}
+              {...input}
+              value={values[input.name]}
+              onChange={onChange}
+            />
+          ))}
+          <button
+            tabIndex="0"// for Safari
+            name="register"
+            id="register"
+            type="submit"
+            aria-label="Register"
+          >
+            Register
+          </button>
+        </form>
+      </main>
     </div>
   );
 };
