@@ -11,6 +11,7 @@ Throughout this repository, you'll find detailed documentation outlining the tas
 * [Tools test results](#tools-test-results)
 * [What can be added](#what-can-be-added)
 * [Deployment](#deployment)
+* [Conclusion](#conclusion)
 * [Resources](#resources)
 
 ## Overview of Qodana
@@ -46,13 +47,29 @@ VoiceOver (macOS) - works successfully.
 
 Я столкнулся с проблемой: При перемещении по странице с помощью кнопки табуляции в браузере Safari фокус не переходит на кнопки.
 
-Решение - я добавил на кнопки tabindex="0".
+Решение - я добавил на кнопки атрибут tabindex="0".
 
 ![WAVE report](screenshots/wave.png)
 There are no errors, issues and alerts in the report from WAVE.
 
 ![Lighthouse report](screenshots/lighthouse.png)
 In Lighthouse's report, all ratings are equal to 100.
+
+![axe DevTools](screenshots/aXe.png)
+There are no issues in the Ax DevTool report.
+
+## Manual testing
+
++   Interactive controls are keyboard focusable
++   Interactive elements indicate their purpose and state
++   The page has a logical tab order
++   Visual order on the page follows DOM order
++   User focus is not accidentally trapped in a region
++   The user's focus is directed to new content added to the page
++   HTML5 landmark elements are used to improve navigation
++   Offscreen content is hidden from assistive technology
++   Custom controls have associated labels
++   Custom controls have ARIA roles
 
 ## What can be added
     - проверка пароля и вывод сообщения о несоответствии/соответствии для каждого поля
@@ -64,8 +81,17 @@ In Lighthouse's report, all ratings are equal to 100.
 написать заключение
 
 ## Deployment
-Вы можете потестировать моё приложение по ссылке
-[link](https://tema-skakun.github.io/accessible-registration-form/)
+You can test my application using the [link](https://tema-skakun.github.io/accessible-registration-form/)
+
+## Conclusion
+
+During this project, I developed a registration form using the React library. This form provides usability for users with disabilities by WCAG requirements. Special attention was paid to the ability to scale the solution quickly, allowing new fields to be added to the form.
+
+After development, I thoroughly tested the form on screen readers across three operating systems and three browsers. Automated accessibility testing was also performed using three different tools. Additionally, manual testing was performed.
+
+As a result of this project, I achieved a significant milestone-full compliance with accessibility and usability requirements for all users, including those with disabilities. This accomplishment ensures that a wide range of users can access the form's functionality.
+
+Working on this project has been a great pleasure, and I am very enthusiastic about continuing to develop and create accessible and user-friendly interfaces. It will be a great honor for me to participate in improving the accessibility of the Qodana project. Willingness for further cooperation and commitment to professional growth are the basis of my work in this area.
 
 ## Resources
 ### What did I read
@@ -98,3 +124,6 @@ In Lighthouse's report, all ratings are equal to 100.
 Website ["Can I use"](https://caniuse.com/?search=htmlFor) provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) is an open-source, collaborative project documenting Web platform technologies, including CSS, HTML, JavaScript, and Web APIs.
+
+[axe-core](https://github.com/dequelabs/axe-core?tab=readme-ov-file) is an accessibility testing engine for websites and other HTML-based user interfaces. It's fast, secure, lightweight, and was built to seamlessly integrate with any existing test environment so you can automate accessibility testing alongside your regular functional testing.
+
