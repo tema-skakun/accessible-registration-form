@@ -28,7 +28,7 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
 I used three browsers, three screen readers and three accessibility testing tools.
 
 ### Browsers
-+ Mozila Firefox [Version 125.0.3 (64-bit)]
++ Mozilla Firefox [Version 125.0.3 (64-bit)]
 + Google Chrome [Version 124.0.6367.119 (Official Build) (x86_64)]
 + Safari [Version 17.4.1 (19618.1.15.11.14)]
 
