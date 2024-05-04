@@ -77,8 +77,9 @@ There are no issues in the Axe DevTool report.
 
 ## What can be added
 + check the password and to display compliance / non-compliance messages for each condition
++ write a function to verify the password, expand the pattern
 + add a general form check
-+ add `aria-live="polite"` for each error messages
++ add `aria-live="polite"` for each error messages (write a function)
 
 ## Deployment
 You can test my application using the [link](https://tema-skakun.github.io/accessible-registration-form/)

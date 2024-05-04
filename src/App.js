@@ -32,7 +32,7 @@ const App = () => {
       ariaLabel: "The password must be between 8 and 20 characters and contain at least 1 letter, 1 digit and 1 special character",
       placeholder: "enter your password",
       errorMessage:
-        "Password should be 8-20 characters and include at least 1 letter, 1 number and 1 special character!",
+        "Password should be between 8 and 20 characters and include at least 1 letter, 1 number and 1 special character!",
       pattern: `^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$`,
       required: true,
     },
@@ -44,7 +44,7 @@ const App = () => {
       ariaLabel: "The username must be between 3 and 16 characters long and must not contain any special characters",
       placeholder: "e.g. John",
       errorMessage:
-        "Username should be 3-16 characters and should not include any special character!",
+        "Username should be between 3 and 16 characters and should not include any special character!",
       pattern: "^[A-Za-z0-9]{3,16}$",
       required: true,
     },
