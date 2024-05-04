@@ -25,17 +25,19 @@ const FormInput = (props) => {
         name={name}
         aria-label={ariaLabel}
         aria-describedby={name}
+        aria-invalid={focused}
         type={showPassword ? "text" : type}
         {...inputProps}
         onChange={onChange}
         onBlur={handleFocus}
         focused={focused.toString()}
       />
-      <span id={id}>
+      <span id={name}>
         {errorMessage}
       </span>
       {type === "password" && (
         <button
+          aria-pressed={showPassword}
           tabIndex="0"// for Safari
           name={showPassword ? "hidePassword" : "showPassword"}
           id={showPassword ? "hidePassword" : "showPassword"}

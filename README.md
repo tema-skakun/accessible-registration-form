@@ -28,26 +28,30 @@ plus a "Show Password" toggle button, ensuring keyboard navigability and screen 
 I used three browsers, three screen readers and three accessibility testing tools.
 
 ### Browsers
-    - Mozila Firefox [Version 125.0.3 (64-bit)]
-    - Google Chrome [Version 124.0.6367.119 (Official Build) (x86_64)]
-    - Safari [Version 17.4.1 (19618.1.15.11.14)]
++ Mozila Firefox [Version 125.0.3 (64-bit)]
++ Google Chrome [Version 124.0.6367.119 (Official Build) (x86_64)]
++ Safari [Version 17.4.1 (19618.1.15.11.14)]
 
 ### Screen Readers
 ![VoiceOver](screenshots/VoiceOver.png)
 VoiceOver (macOS) - works successfully.
 
-    - ___ (Windows OS)
-    - ___ (Linux OS)
+![Narrator](screenshots/Narrator.jpeg)
+Narrator (Windows OS) - works successfully.
+
+![Narrator](screenshots/Orca.png)
+Orca Screen Reader (Linux OS)
+
  ### Accessibility Testing Tools
-    - WAVE Web Accessibility Evaluation Tools (+)
-    - Lighthouse (+)
-    - axe DevTools - Web Accessibility Testing (+)
++ WAVE Web Accessibility Evaluation Tools
++ Lighthouse
++ axe DevTools - Web Accessibility Testing
 
 ## Tools test results
 
-Я столкнулся с проблемой: При перемещении по странице с помощью кнопки табуляции в браузере Safari фокус не переходит на кнопки.
+I am facing a problem with the Safari browser. The focus does not go to the buttons when moving around the page using the tab button.
 
-Решение - я добавил на кнопки атрибут tabindex="0".
+Solution - I added the `tabindex="0"` attribute to the buttons.
 
 ![WAVE report](screenshots/wave.png)
 There are no errors, issues and alerts in the report from WAVE.
@@ -56,7 +60,7 @@ There are no errors, issues and alerts in the report from WAVE.
 In Lighthouse's report, all ratings are equal to 100.
 
 ![axe DevTools](screenshots/aXe.png)
-There are no issues in the Ax DevTool report.
+There are no issues in the Axe DevTool report.
 
 ## Manual testing
 
@@ -72,13 +76,9 @@ There are no issues in the Ax DevTool report.
 +   Custom controls have ARIA roles
 
 ## What can be added
-    - проверка пароля и вывод сообщения о несоответствии/соответствии для каждого поля
-    - общая проверка формы
-    - добавить aria-live="polite" для сообщений об ошибках
-
-~~СДЕЛАТЬ диплой~~ и потестить на ридерах линуксе и винде; ~~и в лайтхаусе~~
-перевести ридми на английский
-написать заключение
++ check the password and to display compliance / non-compliance messages for each condition
++ add a general form check
++ add `aria-live="polite"` for each error messages
 
 ## Deployment
 You can test my application using the [link](https://tema-skakun.github.io/accessible-registration-form/)

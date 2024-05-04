@@ -47,9 +47,13 @@ const App = () => {
     },
   ];
 
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
   const handleSubmit = (e) => {
     e.preventDefault();
     // here should be logic for sending data to server
+    // alert("sent")
+    setFormSubmitted(true);
   };
 
   const onChange = (e) => {
@@ -69,6 +73,7 @@ const App = () => {
               onChange={onChange}
             />
           ))}
+          {formSubmitted && <p id="submittedMessage">Form successfully submitted!</p>}
           <button
             tabIndex="0"// for Safari
             name="register"
