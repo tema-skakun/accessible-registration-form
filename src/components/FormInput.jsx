@@ -2,14 +2,14 @@ import {useState} from "react";
 import "./FormInput.css";
 
 const FormInput = (props) => {
-  const [focused, setFocused] = useState(false);
   const {label, errorMessage, onChange, id, name, type, ariaLabel, ...inputProps} = props;
+
+  const [focused, setFocused] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
 
   const handleFocus = (e) => {
     setFocused(true);
   };
-
-  const [showPassword, setShowPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
     setShowPassword(!showPassword);
@@ -37,13 +37,13 @@ const FormInput = (props) => {
       </span>
       {type === "password" && (
         <button
+          id={showPassword ? "hidePassword" : "showPassword"}
+          name={showPassword ? "hidePassword" : "showPassword"}
+          aria-label={showPassword ? "Hide Password" : "Show Password"}
           aria-pressed={showPassword}
           tabIndex="0"// for Safari
-          name={showPassword ? "hidePassword" : "showPassword"}
-          id={showPassword ? "hidePassword" : "showPassword"}
           type="button"
           onClick={togglePasswordVisibility}
-          aria-label={showPassword ? "Hide Password" : "Show Password"}
         >
           {showPassword ? "Hide " : "Show "}Password
         </button>

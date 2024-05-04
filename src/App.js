@@ -3,11 +3,14 @@ import "./App.css";
 import FormInput from "./components/FormInput";
 
 const App = () => {
-  const [values, setValues] = useState({
+
+  const initialValues = {
     email: "",
     password: "",
     username: "",
-  });
+  };
+
+  const [values, setValues] = useState(initialValues);
 
   const inputs = [
     {
@@ -52,7 +55,6 @@ const App = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // here should be logic for sending data to server
-    // alert("sent")
     setFormSubmitted(true);
   };
 
