@@ -42,7 +42,7 @@ Narrator (Windows OS) - works successfully.
 ![Narrator](screenshots/Orca.png)
 Orca Screen Reader (Linux OS)
 
- ### Accessibility Testing Tools
+### Accessibility Testing Tools
 + WAVE Web Accessibility Evaluation Tools
 + Lighthouse
 + axe DevTools - Web Accessibility Testing
@@ -126,4 +126,3 @@ Website ["Can I use"](https://caniuse.com/?search=htmlFor) provides up-to-date b
 [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) is an open-source, collaborative project documenting Web platform technologies, including CSS, HTML, JavaScript, and Web APIs.
 
 [axe-core](https://github.com/dequelabs/axe-core?tab=readme-ov-file) is an accessibility testing engine for websites and other HTML-based user interfaces. It's fast, secure, lightweight, and was built to seamlessly integrate with any existing test environment so you can automate accessibility testing alongside your regular functional testing.
-
