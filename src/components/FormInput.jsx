@@ -32,7 +32,7 @@ const FormInput = (props) => {
         onBlur={handleFocus}
         focused={focused.toString()}
       />
-      <span id={name}>
+      <span id={name + "ErrorMessage"}>
         {errorMessage}
       </span>
       {type === "password" && (
