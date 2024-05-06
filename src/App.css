@@ -64,6 +64,11 @@ button:hover {
     border: 1px solid black;
 }
 
+button:focus,
+input:focus {
+    outline: 2px solid rgb(8, 34, 107);
+}
+
 p {
     display: flex;
     color: rgb(14, 88, 0);
