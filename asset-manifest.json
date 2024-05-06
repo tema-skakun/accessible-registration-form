@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/accessible-registration-form/static/css/main.93327ef8.css",
+    "main.css": "/accessible-registration-form/static/css/main.922f0e8b.css",
     "main.js": "/accessible-registration-form/static/js/main.898f474c.js",
     "static/js/453.fb022edc.chunk.js": "/accessible-registration-form/static/js/453.fb022edc.chunk.js",
     "index.html": "/accessible-registration-form/index.html",
-    "main.93327ef8.css.map": "/accessible-registration-form/static/css/main.93327ef8.css.map",
+    "main.922f0e8b.css.map": "/accessible-registration-form/static/css/main.922f0e8b.css.map",
     "main.898f474c.js.map": "/accessible-registration-form/static/js/main.898f474c.js.map",
     "453.fb022edc.chunk.js.map": "/accessible-registration-form/static/js/453.fb022edc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93327ef8.css",
+    "static/css/main.922f0e8b.css",
     "static/js/main.898f474c.js"
   ]
 }
